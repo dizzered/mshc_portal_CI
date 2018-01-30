@@ -1,0 +1,1 @@
+ALTER TABLE  `ext_dbs_practice_locs` ADD  `external_name` VARCHAR( 255 ) NOT NULL ;

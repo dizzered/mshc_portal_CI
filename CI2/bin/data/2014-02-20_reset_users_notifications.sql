@@ -1,0 +1,1 @@
+UPDATE `legal_users` SET `missed_appointments_notified` = 0, `case_discharge_notified` = 0, `medical_report_notified` = 0, `pt_note_notified` = 0, `outside_medical_record_notified` = 0, `consult_notified` = 0, `ptbwr_referral_notified` = 0, `disability_notified` = 0, `pharmacy_notified` = 0, `high_charges_notified` = 0 ;

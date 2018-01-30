@@ -1,0 +1,1 @@
+ALTER TABLE `contacts` ADD `params` TEXT NOT NULL AFTER `inquiry_type_id`;

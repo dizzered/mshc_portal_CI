@@ -1,0 +1,1 @@
+ALTER TABLE  `legal_cases_legal_case_mgrs` ADD  `external_id4` VARCHAR( 99 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL AFTER  `external_id3`;

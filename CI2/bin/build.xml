@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="MSHC build script" basedir="." default="build" >
+ 
+  <target name="get.properties">
+    <property file="build.properties" />
+    <filter filtersfile="build.properties" />
+  </target>
+
+	<target name="clean" depends="get.properties">
+    <delete file="cache.properties"/>
+    <delete dir="${build.dest}"/>
+    <mkdir dir="${build.dest}"/>
+	</target>
+	
+  <target name="build" depends="get.properties">
+    
+    <!-- files where properties get replaced (filtering is on) -->
+    <copy file="index.php" tofile="${build.dest}/index.php" filtering="true" />
+    
+    <copy todir="${build.dest}" overwrite="true">
+      <fileset dir=".">
+      	<modified/>
+        
+        <!-- exclude all the filtered files above (they already got copied) and other files not necessary to be at dest -->
+      	<exclude name="index.php"/>
+        <exclude name="cache.properties"/>
+        <exclude name="build.xml"/>
+        <exclude name="build.properties"/>
+        <exclude name=".project"/>
+        <exclude name="testing/"/>
+        <exclude name="production/"/>
+        <exclude name="nbproject/"/>
+        <exclude name="user_guide/"/>
+        <exclude name="SQL/"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="sql.scripts" depends="get.properties">
+      <property file="sql.properties"/>
+    <copy todir="${build.dest}/SQL" filtering="true">
+        <fileset dir="SQL" />
+        <filterset>
+      <filter token="dbprefix" value="${dbprefix}"/>
+    </filterset>
+    </copy>
+  </target>
+
+</project>

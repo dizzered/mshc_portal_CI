@@ -1,0 +1,6 @@
+ALTER TABLE `marketers` MODIFY COLUMN `created_by` INTEGER, 
+MODIFY COLUMN `modified_by` INTEGER ;
+
+ALTER TABLE `marketers` ADD FOREIGN KEY (`created_by`) REFERENCES `users` (`id`) ON DELETE SET NULL ON UPDATE CASCADE ;
+
+ALTER TABLE `marketers` ADD FOREIGN KEY (`modified_by`) REFERENCES `users` (`id`) ON DELETE SET NULL ON UPDATE CASCADE ;

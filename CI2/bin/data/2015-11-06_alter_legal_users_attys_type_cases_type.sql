@@ -1,0 +1,1 @@
+ALTER TABLE `legal_users` ADD `cases_search_attys_type` VARCHAR(32) NOT NULL DEFAULT 'my' AFTER `high_charges_level3`, ADD `cases_search_cases_type` VARCHAR(32) NOT NULL DEFAULT 'active' AFTER `cases_search_attys_type`;

@@ -1,0 +1,1 @@
+ALTER TABLE  `users` ADD  `autologin_key` VARCHAR( 32 ) NULL ;
