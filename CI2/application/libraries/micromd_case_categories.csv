@@ -1,0 +1,108 @@
+Database,Category Code,Name,Display Name
+AMM_LIVE,1,Auto Accident,Auto Accident
+AMM_LIVE,12,Self Pay,N/A
+AMM_LIVE,14,Ind Medical Exam,Ind Medical Exam
+AMM_LIVE,15,Medicare,N/A
+AMM_LIVE,16,Carefist Blue Cross & Blue Shield,N/A
+AMM_LIVE,17,Slip and Fall,Slip and Fall
+AMM_LIVE,18,Railroad,N/A
+AMM_LIVE,19,Work Comp,Work Comp
+AMM_LIVE,2,Auto Work Comp,Auto Work Comp
+AMM_LIVE,20,Collections Beacon,N/A
+AMM_LIVE,21,Collections Peroutka,N/A
+AMM_LIVE,22,Collections In-House,N/A
+AMM_LIVE,23,Collections NCO,N/A
+AMM_LIVE,4,Motorcycle Bus Cab,Motorcycle Bus Cab
+AMM_LIVE,6,Insurance Class-Private,N/A
+BWR,20,Collections Beacon,N/A
+BWR,22,Collections In-House,N/A
+BWR,aac,Auto Accident,Auto Accident
+BWR,aas,Auto Accident,Auto Accident
+BWR,awc,Auto Work Comp,Auto Work Comp
+BWR,aws,Auto Work Comp,Auto Work Comp
+BWR,bls,Carefist Blue Cross & Blue Shield,N/A
+BWR,col,Collections,N/A
+BWR,ins,Insurance Class-Private,N/A
+BWR,lic,Slip and Fall,Slip and Fall
+BWR,lis,Slip and Fall,Slip and Fall
+BWR,mbc,Motorcycle Bus Cab,Motorcycle Bus Cab
+BWR,mbs,Motorcycle Bus Cab,Motorcycle Bus Cab
+BWR,mcr,Medicare,N/A
+BWR,rr,Railroad,N/A
+BWR,slf,Self Pay,N/A
+BWR,unn,Misc,N/A
+BWR,wkc,Wiork Comp,Work Comp
+BWR,wks,Work Comp,Work Comp
+md,,Misc,N/A
+md,20,Collections Beacon,N/A
+md,21,Collections Peroutka,N/A
+md,22,Collections In-House,N/A
+md,23,Collections NCO,N/A
+md,a,Misc,N/A
+md,aac,Auto Accident,Auto Accident
+md,aas,Auto Accident,Auto Accident
+md,awc,Auto Work Comp,Auto Work Comp
+md,aws,Auto Work Comp,Auto Work Comp
+md,bls,Carefist Blue Cross & Blue Shield,N/A
+md,col,Collections,N/A
+md,ime,Ind Med Eval,Ind Medical Exam
+md,ins,Insurance Class-Private,N/A
+md,law,law,N/A
+md,lic,Slip and Fall,Slip and Fall
+md,lis,Slip and Fall,Slip and Fall
+md,mbc,Motorcycle Bus Cab,Motorcycle Bus Cab
+md,mbs,Motorcycle Bus Cab,Motorcycle Bus Cab
+md,mcd,Medicaid,N/A
+md,mcr,Medicare,N/A
+md,mgh,Misc,N/A
+md,phn,PHN,N/A
+md,rr,Railroad,N/A
+md,rtn,Misc,N/A
+md,slf,Self Pay,N/A
+md,unn,Misc,N/A
+md,up,Misc,N/A
+md,wkc,Work Comp,Work Comp
+md,wks,Work Comp,Work Comp
+MRI,,Misc,N/A
+MRI,20,Collections Beacon,N/A
+MRI,22,Collections In-House,N/A
+MRI,aac,Auto Accident,Auto Accident
+MRI,aas,Auto Accident,Auto Accident
+MRI,awc,Auto Work Comp,Auto Work Comp
+MRI,bls,Carefist Blue Cross & Blue Shield,N/A
+MRI,ins,Insurance Class-Private,N/A
+MRI,lic,Slip and Fall,Slip and Fall
+MRI,lis,Slip and Fall,Slip and Fall
+MRI,mbc,Motorcycle Bus Cab,Motorcycle Bus Cab
+MRI,mcd,Medicaid,N/A
+MRI,mcr,Medicare,N/A
+MRI,rr,Railroad,N/A
+MRI,slf,Self Pay,N/A
+MRI,up,Misc,N/A
+MRI,wkc,Work Comp,Work Comp
+MRI,wks,Work Comp,Work Comp
+PT,,Misc,N/A
+PT,20,Collections Beacon,N/A
+PT,21,Collections Peroutka,N/A
+PT,22,Collections In-House,N/A
+PT,23,Collections NCO,N/A
+PT,aac,Auto Accident,Auto Accident
+PT,aas,Auto Accident,Auto Accident
+PT,awc,Auto Work Comp,Auto Work Comp
+PT,aws,Auto Work Comp,Auto Work Comp
+PT,bls,Carefist Blue Cross & Blue Shield,N/A
+PT,col,Collections,N/A
+PT,ime,Ind Med Eval,Ind Medical Exam
+PT,ins,Insurance Class-Private,N/A
+PT,lic,Slip and Fall,Slip and Fall
+PT,lis,Slip and Fall,Slip and Fall
+PT,mbc,Motorcycle Bus Cab,Motorcycle Bus Cab
+PT,mbs,Motorcycle Bus Cab,Motorcycle Bus Cab
+PT,mcr,Medicare,N/A
+PT,pc,Prof Courtesy,N/A
+PT,phn,PHN,N/A
+PT,rr,Railroad,N/A
+PT,slf,Self Pay,N/A
+PT,unn,Misc,N/A
+PT,wkc,Work Comp,Work Comp
+PT,wks,Work Comp,Work Comp
