@@ -1,0 +1,42 @@
+/* CSS Document */
+
+#btn_contact_us_add {
+	display:inline-block !important;
+	position:relative !important;
+	top:-25px !important;
+}
+
+.fnExtAtty div.check_off {
+    padding: 1px 0 1px 20px;
+}
+
+.fnExtAtty div.check_on {
+    padding: 1px 0 1px 20px;
+}
+
+#client_cases_search input[type="text"], #client_new_cases_search input[type="text"] {
+    width: 156px ;
+}
+.styled-select select {
+    padding: 2px 24px 0px 0px;
+}
+#client_cases_search select {
+    width: 210px;
+    /*height: 26px;
+    border-radius: 0px 0px 0px 0px;
+    box-shadow: none;
+    padding: 0px 5px;*/
+}
+.select_cases_search_container {
+    width: 168px;
+}
+#tabs li span + span {
+	margin-left:-4px !important;
+}
+
+#tabs_assigned li span + span {
+    margin-left: -4px !important;
+}
+.dialog-popup-content fieldset {
+	margin-bottom:30px;
+}

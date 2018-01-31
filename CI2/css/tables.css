@@ -1,0 +1,130 @@
+/* CSS Document */
+
+/* Main table tag */
+table.table
+{
+	width:100%;
+	border:1px solid #cfcfcf;
+	border-top:1px solid #999999;
+}
+
+/* All header cells in the table */
+table.table thead th
+{
+	padding:6px;
+	text-align:left;
+	padding-right:10px;
+	background:#fdfdfd url(/images/jq_tab_th_bg.png) bottom repeat-x;
+	border-bottom:1px solid #828282
+}
+
+/* Disable left border for first columns */
+table.table thead th:first-child
+{
+    border-left: none;
+}
+
+table.table thead th:last-child
+{
+    border-right: none;
+}
+
+/* SORTING *******************************************************************/
+
+/* A sortable column header */
+table.table th.table-header-sortable
+{
+    cursor: pointer;
+}
+
+/* Sorting icon in the sortable table column header */
+table.table th.table-header-sortable div.table-header-container
+{
+    background: url('/images/column-sortable.png') no-repeat right;
+}
+
+/* Ascending sorted icon in the table column header */
+table.table th.table-header-sorted-asc div.table-header-container
+{
+    background: url('/images/column-asc.png') no-repeat right;
+}
+
+/* Descending sorted icon in the table column header */
+table.table th.table-header-sorted-desc div.table-header-container
+{
+    background: url('/images/column-desc.png') no-repeat right;
+}
+
+table.contact-form-table {
+	margin-top:5px;
+	margin-left:20px;
+}
+
+table.contact-form-table td {
+	padding-bottom:15px;
+}
+table.contact-form-table td.contact-form-label {
+	padding-top:8px;
+}
+table.settings-form-table td {
+	padding-bottom:20px;
+	vertical-align:middle;
+}
+.totalLine {
+	border-top: 1px solid #828282;
+	background: #eee;
+	text-decoration:underline;
+}
+
+.totalLine td {
+	padding-top: 15px !important;
+}
+
+.new_case_select {
+	text-decoration:underline;
+	cursor:pointer;
+	color:#333333;
+}
+
+#dashboard-user-table-container .jtable-search-field {
+	width:60px;
+}
+
+#dashboard-form-table-container .jtable-bottom-panel {
+	display:none;
+}
+
+/* Notifications */
+
+.fnNotificationTypeRow.discharged {
+	background:url(/images/ico_discharged.png) no-repeat;
+	background-size:cover;
+}
+.fnNotificationTypeRow.docs {
+	background:url(/images/ico_docs.png) no-repeat;
+	background-size:cover;
+}
+.fnNotificationTypeRow.missed_apt {
+	background:url(/images/ico_missed_apt.png) no-repeat;
+	background-size:cover;
+}
+.fnNotificationTypeRow.high_charge {
+	background:url(/images/ico_high_charge.png) no-repeat;
+	background-size:cover;
+}
+.fnNotificationTypeRow {
+	width:20px;
+	height:20px;
+}
+.fnShowNotification {
+	cursor:pointer;
+	font-weight:normal;
+}
+.fnShowNotification.unread {
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+#dialog-notification-data #dialog-popup-content-title {
+	padding: 3px 0 3px 30px;
+}

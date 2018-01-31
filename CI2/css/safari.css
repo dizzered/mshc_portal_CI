@@ -1,0 +1,9 @@
+/* CSS Document */
+
+.file-clear {
+top: 0;
+}
+
+#btn_contact_us_add, #contact_us .file-clear {
+    top: 0;
+}

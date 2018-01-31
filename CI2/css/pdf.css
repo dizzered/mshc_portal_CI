@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+body			{	background: #fff; font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif; font-size: 14px;
+					color: #000; margin: 0; padding: 50px; }
+table			{	border-collapse: collapse; }
+.content		{	width: 900px; }
+
+.header			{	 }
+.header td		{	vertical-align: bottom }
+.logo			{	width: 230px; padding-right: 30px; }
+.address		{	font-weight: bold; padding-right: 30px; }
+.logo			{	width: 100px; }
+.logo img		{	width: 106px; height: auto; }
+.tax-id			{	}
+
+th.th-with-background		{	background: #000; color: #fff; font-weight: bold; padding: 2px !important; text-align: center; }
+
+table.border				{	width: 100%; border: 1px solid #000; margin-top: 10px;  }
+table.border td				{	vertical-align: top; padding: 1em 0 1em 4.6em; }
+table.border td:first-child	{	width: 45%;  }
+table.border table td		{	padding: 0; width: auto; }
+table.border table td:first-child		{	padding-right: 2.1em; white-space: nowrap }				
+
+table.diagnosis				{	margin: 23px 0 56px }
+table.diagnosis .leftCol			{	text-align: right; font-weight: bold; padding-left: 40px; }
+
+table.service				{	width: 100%; margin: 10px 0; }
+table.service td			{	padding: 2px; overflow:hidden; white-space: nowrap; }
+table.service th			{	padding: 8px; white-space: nowrap; border-top: 1px solid #000; border-bottom: 1px solid #000;  }
+.space						{	padding: 0 !important; height: 4px; font-size: 1px !important; line-height: 1px !important; }
+.service-dt					{	text-align: center; width: 11% }
+.trans-dt					{	text-align: center; width: 10% }
+.office						{	text-align: left; width: 13% }
+.provider					{	text-align: left; width: 12%; }
+.service					{	text-align: left; width: 41%; overflow:hidden; text-overflow: ellipsis; }
+.charge-credit				{	text-align: right; width: 13%; white-space: nowrap; padding: 3px 0 !important; }
+.charges td					{	padding: 3px 0 3px 15px; }
+.total						{	text-align: right; padding: 3px 0; }
+
+.border-top					{	border-top: 1px solid #000; }
+.border-bottom				{	border-bottom: 1px solid #000; }
+.summary					{	background: #dcdcdc; }
+
+table.patient				{	width: 100% }
+.total2 td					{	padding: 20px 5px 20px 0 !important }
+.summarytitle				{	text-align: right; padding-right: 100px !important; font-weight: bold; font-size: 1.2em; }
+
+

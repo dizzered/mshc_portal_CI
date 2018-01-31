@@ -1,0 +1,90 @@
+/* CSS Document */
+
+.fnFirmMaintenanceBox {
+	float:right;
+	margin-top:-2px;
+	display:none;
+}
+
+.fnAttyMaintenanceBox {
+	float:right;
+	margin-top:-20px;
+	position:relative;
+	left:5px;
+	display:none;
+}
+
+.fnFirmMaintenanceBox img, .fnAttyMaintenanceBox img, .fnFinGrpBox img {
+	cursor:pointer;
+}
+.fnFirmsTree li:hover > div.fnFirmMaintenanceBox,
+#firms-attorneys-tree li:hover > div.fnFirmMaintenanceBox,
+.fnAppendedPrimaries:hover > div.fnFirmMaintenanceBox, 
+.fnLinkedPrimaries:hover > div.fnFirmMaintenanceBox {
+	display:block;
+}
+
+.fnFirmsTree ul li:hover > div.fnAttyMaintenanceBox {
+	display:block;
+}
+
+.fnFinGrpMaintenanceBox {
+	float:right;
+	margin-top:-2px;
+	display:none;
+	margin:0 !important;
+	padding:0 !important;
+	border:none !important;
+}
+
+.fnFinGrpTree li:hover > div.fnFinGrpMaintenanceBox {
+	display:block;
+}
+.fnExtDB {
+	margin-bottom:5px;
+}
+.fnExtDB span {
+	padding: 5px 5px 5px 16px;
+	background: url(/js/jquery/jquery-treeview/images/treeview-default-line.gif) 0 0 no-repeat;
+	margin:0;
+}
+.fnExtDB span {
+	cursor:pointer;
+}
+.fnExtDB span.lastExpandable {
+	background-image: url(/js/jquery/jquery-treeview/images/treeview-default.gif);
+	background-position: -32px -65px;
+}
+
+#ext_attorneys_list {
+height: 170px;
+overflow: auto;
+margin: 10px 0 5px;
+}
+.fnExtAtty {
+	padding: 6px 5px 5px 0px;
+	/*padding: 6px 5px 5px 20px;
+	background: url(/js/jquery/jquery-treeview/images/treeview-default-line.gif) 0 0 no-repeat;
+	display:none;*/
+}
+.fnExtAtty div {
+	min-height:13px;
+}
+.fnExtDB span.lastCollapsable {
+	background-image: url(/js/jquery/jquery-treeview/images/treeview-default.gif);
+	background-position: 0 -109px;
+}
+.fnExtAtty div.check_off {
+	background: url(/images/check_off.png) 0 0 no-repeat;
+	padding:1px 0;
+	padding-left:20px;
+	cursor:pointer;
+}
+.fnExtAtty div.check_on {
+	background: url(/images/check_on.png) 0 0 no-repeat;
+	padding-left:20px;
+	cursor:pointer;	
+}
+.fnExtDB .fnExtAtty:last-child {
+	background-position: 0 -1759px;
+}
